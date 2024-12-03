@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Mind Mate",
+    "version": "1.0",
+    "description": "Mind Mate - Imagine having a trusted friend right at your fingertips, ready to support you through life’s highs and lows.",
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "storage", "https://api.openai.com/"]
+  }
+  

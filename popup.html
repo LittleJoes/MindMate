@@ -1,0 +1,39 @@
+<!-- popup.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="popup.js" defer></script>
+</head>
+
+<body>
+    <div class="container political-mode">
+        <header>
+            <h1>Mind Mate</h1>
+        </header>
+        <!-- Mode switch buttons above the text box -->
+        <div class="mode-switch-container">
+            
+
+        </div>
+        <main>
+            <!-- Adjusted the rows attribute to make the text box longer on the Y-axis -->
+            <textarea id="userInput" rows="6" placeholder="Enter your enquiry here..."></textarea>
+            <button id="solveButton">Receive Answer</button>
+            <div id="result" class="result-container"></div>
+            <div id="counter" class="counter-container"></div>
+            <!-- New section for AI response -->
+            <div class="ai-response-container">
+                <h2 class="ai-response-title">Buddy AI Response:</h2>
+                <div class="ai-response" id="aiResponse">Please Stand by...</div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
